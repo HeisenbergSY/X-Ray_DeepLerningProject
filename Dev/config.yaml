@@ -1,0 +1,17 @@
+model_name: MobileNetV3Binary  # Replace model name with the name of the model you want to train (MobileNetV3Binary, VGG16Binary, ResNet50Binary)
+train_dir: C:\\Users\\thepr\\DeepLerningProject\\chest_xray\\train
+val_dir: C:\\Users\\thepr\\DeepLerningProject\\chest_xray\\val
+test_dir: C:\\Users\\thepr\\DeepLerningProject\\chest_xray\\test
+batch_size: 60  # Increase the batch size for faster training (Increase the demand on CPU/GPU)
+num_epochs: 10
+learning_rates:
+  #- 0.001
+  - 0.0001
+patience_values:
+  #- 3
+  #- 2
+  - 10
+use_k_fold: false  # Change to true if you want to use k-folds cross-validation
+k_folds: 3
+use_random_seed: false  # Specify whether to use a random seed
+seed: 42  # This will be ignored if use_random_seed is true

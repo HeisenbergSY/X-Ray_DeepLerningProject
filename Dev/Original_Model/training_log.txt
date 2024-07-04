@@ -1,0 +1,16 @@
+Learning Rate: 0.001
+Model Used: MobileNetV3Binary
+Execution Time (seconds): 331.69568395614624
+Final Validation Accuracy: (0.5625, 2.1554934978485107)
+Test Accuracy: 0.6762820512820513
+Test Precision: 0.9947368421052631
+Test Recall: 0.4846153846153846
+Test F1-score: 0.6517241379310345
+Test AUC-ROC: 0.9609796186719263
+Hardware Profile:
+  Platform: Windows-11-10.0.22631-SP0
+  Processor: AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+  RAM: 31.93 GB
+  CUDA Available: True
+  CUDA Device Count: 1
+  CUDA Device Name: NVIDIA GeForce RTX 3070
