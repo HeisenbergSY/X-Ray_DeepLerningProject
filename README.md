@@ -51,17 +51,6 @@ The config.yaml file contains the configuration for the training process. Below 
 - use_random_seed: true  # Specify whether to use a random seed
 - seed: 42  # This will be ignored if use_random_seed is true
 
-- model_name: Specify the model architecture to be used (e.g., MobileNetV3Binary, VGG16Binary, ResNet50Binary).
-- train_dir, val_dir, test_dir: Paths to the training, validation, and test directories.
-- batch_size: Batch size for training and validation.
-- num_epochs: Number of epochs for training.
-- learning_rates: List of learning rates to try during hyperparameter tuning.
-- patience_values: List of patience values for early stopping during hyperparameter tuning.
-- use_k_fold: Enable or disable k-fold cross-validation.
-- k_folds: Number of folds for k-fold cross-validation.
-- use_random_seed: Specify whether to use a random seed.
-- seed: Random seed value (ignored if use_random_seed is true).
-
 ## Training:
 
 To start the training process, run the run.py script:
