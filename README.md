@@ -20,15 +20,15 @@ Download and Extract Dataset:
 Download the dataset from the link provided above and extract it to your desired location. Make sure the directory structure looks like this:
 
 - dataset/
--     train/
-  -      NORMAL/
-  -      PNEUMONIA/
--     val/
-  -      NORMAL/
-  -      PNEUMONIA/
--     test/
-  -      NORMAL/
-  -      PNEUMONIA/
+--     train/
+  --      NORMAL/
+  --      PNEUMONIA/
+--     val/
+  --      NORMAL/
+  --      PNEUMONIA/
+--     test/
+  --      NORMAL/
+  --      PNEUMONIA/
 
 In main you will find the necessery code. Download all the files in main to a specific directory on your local drive.
 Open config.yaml and specify the directory of your data. You can also modify other parameters in the config file 
