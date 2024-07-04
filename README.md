@@ -74,7 +74,8 @@ After training, the script evaluates the best model on the test set and logs the
 
 ## Inference
 
-The inference mode allows you to use a trained model to make predictions on new chest X-ray images. The script run_inference.py provides an interactive GUI for selecting the model and image files.
+The inference mode allows you to use a trained model to make predictions on new chest X-ray images. The script run_inference.py provides an interactive GUI for selecting the model and image files. Already trained models can be found on Google drive:
+https://drive.google.com/drive/folders/1Zi6nQfpwh61HBU8X8J_CKt8hH6irvJSm?usp=sharing
 
 ### Inference Mode Instructions
 
