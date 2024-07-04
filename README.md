@@ -57,6 +57,19 @@ To start the training process, run the run.py script:
 python run.py
 This will train the model using the specified configuration and save the best model based on validation loss.
 
+## Inference
+
+The inference mode allows you to use a trained model to make predictions on new chest X-ray images. The script run_inference.py provides an interactive GUI for selecting the model and image files.
+
+### Inference Mode Instructions
+
+1. Ensure you have a trained model saved in the .pth format.
+2. Insure to select the right model in the config.yaml
+3. Run the run_inference.py script
+4. A file dialog will open to select the saved model file (*.pth).
+5. Another file dialog will open to select one or more chest X-ray images for inference.
+6. The script will display the predicted class (Normal or Pneumonia) along with the probability for each selected image.
+   
 ## Evaluation:
 
 After training, the script evaluates the best model on the test set and logs the results. The evaluation includes accuracy, precision, recall, F1-score, and AUC-ROC. It also plots the accuracy over epochs and the confusion matrix.
@@ -94,3 +107,13 @@ Furthermore a confussion matrix and an accuracy plot will be created after each 
 ## Contributing
 
 Feel free to open issues or submit pull requests if you want to contribute to this project.
+
+## Hardware and Environment
+
+The training was done on the folloing hardware:
+- Platform: Windows-11-10.0.22631-SP0
+- Processor: AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+- RAM: 31.93 GB
+- CUDA Available: True
+- CUDA Device Count: 1
+- CUDA Device Name: NVIDIA GeForce RTX 3070
