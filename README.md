@@ -29,7 +29,12 @@ dataset/
     test/
         NORMAL/
         PNEUMONIA/
-        
+
+In main you will find the necessery code. Download all the files in main to a specific directory on your local drive.
+Open config.yaml and specify the directory of your data. You can also modify other parameters in the config file 
+and choose a specific model to train. After saving the configuration. run the run.py file. Results will be saved
+in the same directory as the code.
+
 ## Config File:
 
 The config.yaml file contains the configuration for the training process. Below is an example configuration:
