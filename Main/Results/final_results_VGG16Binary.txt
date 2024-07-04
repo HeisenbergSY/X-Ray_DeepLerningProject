@@ -1,0 +1,18 @@
+Learning Rate: 0.0001
+Data Augmentations: ['RandomRotation(30)', 'RandomHorizontalFlip()', 'RandomResizedCrop(224, scale=(0.8, 1.0))', 'HistogramEqualization()', 'RandomAffine(degrees=0, translate=(0.1, 0.1))', 'RandomVerticalFlip()']
+Model Used: VGG16Binary
+Execution Time (seconds): 1726.531922340393
+Number of Epochs: 10
+Final Validation Accuracy: 87.5
+Test Accuracy: 0.9134615384615384
+Test Precision: 0.9137931034482759
+Test Recall: 0.9512820512820512
+Test F1-score: 0.9321608040201005
+Test AUC-ROC: 0.9756848564540873
+Hardware Profile:
+  Platform: Windows-11-10.0.22631-SP0
+  Processor: AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+  RAM: 8.0 GB
+  CUDA Available: True
+  CUDA Device Count: 1
+  CUDA Device Name: NVIDIA GeForce RTX 3070

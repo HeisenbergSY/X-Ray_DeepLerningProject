@@ -1,0 +1,5 @@
+Learning Rate: 0.001, Patience: 5, Average Validation Loss: 0.10752068402312998, Average Validation Accuracy: 96.56844612406154%
+Learning Rate: 0.001, Patience: 10, Average Validation Loss: 0.09718414419688805, Average Validation Accuracy: 96.97087705436749%
+Learning Rate: 0.0001, Patience: 5, Average Validation Loss: 0.062332211622516766, Average Validation Accuracy: 97.6993532474276%
+Learning Rate: 0.0001, Patience: 10, Average Validation Loss: 0.07074470590009833, Average Validation Accuracy: 97.277577751588%
+Best Hyperparameters: {'learning_rate': 0.0001, 'patience': 5}, Best Validation Loss: 0.05057013027478454
