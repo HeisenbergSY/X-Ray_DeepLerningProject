@@ -12,7 +12,7 @@ The dataset used for this project consists of chest X-ray images categorized int
 
 Requirements
 To install the required libraries, use the requirements.txt file provided in the repository. Run the following command:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Usage
 
@@ -20,19 +20,19 @@ Download and Extract Dataset:
 Download the dataset from the link provided above and extract it to your desired location. Make sure the directory structure looks like this:
 
 - dataset/
---     train/
-  --      NORMAL/
-  --      PNEUMONIA/
---     val/
-  --      NORMAL/
-  --      PNEUMONIA/
---     test/
-  --      NORMAL/
-  --      PNEUMONIA/
+  - train/
+    - NORMAL/
+    - PNEUMONIA/
+  - val/
+    - NORMAL/
+    - PNEUMONIA/
+  - test/
+    - NORMAL/
+    - PNEUMONIA/
 
 In main you will find the necessery code. Download all the files in main to a specific directory on your local drive.
 Open config.yaml and specify the directory of your data. You can also modify other parameters in the config file 
-and choose a specific model to train. After saving the configuration. run the run.py file. Results will be saved
+and choose a specific model to train. After saving the configuration. run the run.py file `python run run.py` . Results will be saved
 in the same directory as the code.
 
 ## Config File:
@@ -109,6 +109,9 @@ K-fold cross-validation is implemented in data_loader.py. You can enable it by s
 
 The script logs the best hyperparameters and evaluation metrics. It also saves the best model with the filename format best_model_<model_name>.pth.
 Furthermore a confussion matrix and an accuracy plot will be created after each training.
+Example for a resulted confussion matrix:
+
+![Example](https://github.com/HeisenbergSY/X-Ray_DeepLerningProject/blob/main/Main/Results/MobileNetV3Binary_confusion_matrix.png)
 
 ## Contributing
 
